@@ -557,7 +557,7 @@ class StockReturnCalculatorComponent {
         this.runCalculator();
     }
     intervalChanged(val) {
-        this.interval = val;
+        this.intervalToAnalyze = val;
         this.runCalculator();
     }
 }
