@@ -67,7 +67,9 @@ AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _calculators_calculators_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./calculators/calculators.component */ "./src/app/calculators/calculators.component.ts");
+/* harmony import */ var _main_page_top_navbar_top_navbar_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main-page/top-navbar/top-navbar.component */ "./src/app/main-page/top-navbar/top-navbar.component.ts");
+/* harmony import */ var _calculators_calculators_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calculators/calculators.component */ "./src/app/calculators/calculators.component.ts");
+
 
 
 
@@ -77,11 +79,12 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 2, vars: 0, consts: [[1, "main-container"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-calculators");
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 3, vars: 0, consts: [[1, "main-container"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-top-navbar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-calculators");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_calculators_calculators_component__WEBPACK_IMPORTED_MODULE_1__["CalculatorsComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"] });
+    } }, directives: [_main_page_top_navbar_top_navbar_component__WEBPACK_IMPORTED_MODULE_1__["TopNavbarComponent"], _calculators_calculators_component__WEBPACK_IMPORTED_MODULE_2__["CalculatorsComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -116,6 +119,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
 /* harmony import */ var _calculators_stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./calculators/stock-return-calculator/stock-return-calculator.component */ "./src/app/calculators/stock-return-calculator/stock-return-calculator.component.ts");
 /* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/table.js");
+/* harmony import */ var _main_page_top_navbar_top_navbar_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./main-page/top-navbar/top-navbar.component */ "./src/app/main-page/top-navbar/top-navbar.component.ts");
+
 
 
 
@@ -144,7 +149,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
         _calculators_calculator_input_calculator_input_component__WEBPACK_IMPORTED_MODULE_5__["CalculatorInputComponent"],
         _calculators_calculators_component__WEBPACK_IMPORTED_MODULE_6__["CalculatorsComponent"],
-        _calculators_stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_10__["StockReturnCalculatorComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _calculators_stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_10__["StockReturnCalculatorComponent"],
+        _main_page_top_navbar_top_navbar_component__WEBPACK_IMPORTED_MODULE_12__["TopNavbarComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
         _material_material_module__WEBPACK_IMPORTED_MODULE_7__["MaterialModule"],
@@ -159,6 +165,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _calculators_calculator_input_calculator_input_component__WEBPACK_IMPORTED_MODULE_5__["CalculatorInputComponent"],
                     _calculators_calculators_component__WEBPACK_IMPORTED_MODULE_6__["CalculatorsComponent"],
                     _calculators_stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_10__["StockReturnCalculatorComponent"],
+                    _main_page_top_navbar_top_navbar_component__WEBPACK_IMPORTED_MODULE_12__["TopNavbarComponent"],
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -190,34 +197,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var src_app_services_stock_data_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/stock-data-service */ "./src/app/services/stock-data-service.ts");
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
-/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
 
 
 
 
-
-
-
-
-function CalculatorInputComponent_mat_option_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const stock_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("value", stock_r1.apiSymbol);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", stock_r1.name, " ");
-} }
 class CalculatorInputComponent {
     constructor(stockDataService) {
         this.stockDataService = stockDataService;
         this.onSubmit = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.stocks = this.stockDataService.getStocks();
-        this.selectedItem = this.stocks[0];
         this.toDate = new Date();
         this.fromDate = new Date();
         this.precisionOptions = [2, 1, .5, .2,];
@@ -225,11 +212,12 @@ class CalculatorInputComponent {
     ngOnInit() {
         this.toDate = new Date("2020-07-20");
         this.fromDate = new Date("1930-05-04");
-        this.submitInput();
+        this.stocks = this.stockDataService.getStocks();
+        this.selectedStock = this.stocks[0];
     }
     dropdownChanged(val) {
-        this.selectedItem = val;
-        console.log(this.selectedItem);
+        this.selectedStock = val;
+        console.log(this.selectedStock);
     }
     toDatepickerChanged(newDate) {
         this.toDate = new Date(newDate);
@@ -241,7 +229,7 @@ class CalculatorInputComponent {
     }
     submitInput() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
-            this.stockDataService.getStockPrices(this.selectedItem, this.toDate, this.fromDate).subscribe((result) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            this.stockDataService.getStockPrices(this.selectedStock, this.toDate, this.fromDate).subscribe((result) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
                 var stockPrices = yield result;
                 console.log("From the input page, here are the stock prices:");
                 console.log(stockPrices);
@@ -251,37 +239,7 @@ class CalculatorInputComponent {
     }
 }
 CalculatorInputComponent.ɵfac = function CalculatorInputComponent_Factory(t) { return new (t || CalculatorInputComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_stock_data_service__WEBPACK_IMPORTED_MODULE_2__["StockDataService"])); };
-CalculatorInputComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CalculatorInputComponent, selectors: [["app-calculator-input"]], outputs: { onSubmit: "onSubmit" }, decls: 12, vars: 4, consts: [[1, "normal", 2, "width", "25%", "margin-top", "20px", "color", "blue", 3, "change"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "date", "value", "1930-05-04", 3, "change"], ["type", "date", "value", "2020-07-20", 3, "change"], ["mat-raised-button", "", "color", "primary", 3, "click"], [3, "value"]], template: function CalculatorInputComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "mat-select", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function CalculatorInputComponent_Template_mat_select_change_2_listener($event) { return ctx.dropdownChanged($event.target.value); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, CalculatorInputComponent_mat_option_3_Template, 2, 2, "mat-option", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "input", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function CalculatorInputComponent_Template_input_change_4_listener($event) { return ctx.fromDatepickerChanged($event.target.value); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "input", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function CalculatorInputComponent_Template_input_change_5_listener($event) { return ctx.toDatepickerChanged($event.target.value); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "button", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CalculatorInputComponent_Template_button_click_6_listener() { return ctx.submitInput(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "Submit");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "\" ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.stocks);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate3"]("The below calculation runs from ", ctx.fromDate.toISOString().split("T")[0], " to ", ctx.toDate.toISOString().split("T")[0], ", analyzing prices on the ", ctx.selectedItem.name, ".");
-    } }, directives: [_angular_material_select__WEBPACK_IMPORTED_MODULE_3__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_material_button__WEBPACK_IMPORTED_MODULE_5__["MatButton"], _angular_material_core__WEBPACK_IMPORTED_MODULE_6__["MatOption"]], styles: [".normal[_ngcontent-%COMP%]{\r\n    color: blue !important;\r\n    width:25%;\r\n    margin-top:20px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FsY3VsYXRvcnMvY2FsY3VsYXRvci1pbnB1dC9jYWxjdWxhdG9yLWlucHV0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxzQkFBc0I7SUFDdEIsU0FBUztJQUNULGVBQWU7QUFDbkIiLCJmaWxlIjoic3JjL2FwcC9jYWxjdWxhdG9ycy9jYWxjdWxhdG9yLWlucHV0L2NhbGN1bGF0b3ItaW5wdXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5ub3JtYWx7XHJcbiAgICBjb2xvcjogYmx1ZSAhaW1wb3J0YW50O1xyXG4gICAgd2lkdGg6MjUlO1xyXG4gICAgbWFyZ2luLXRvcDoyMHB4O1xyXG59Il19 */"] });
+CalculatorInputComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CalculatorInputComponent, selectors: [["app-calculator-input"]], outputs: { onSubmit: "onSubmit" }, decls: 0, vars: 0, template: function CalculatorInputComponent_Template(rf, ctx) { }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NhbGN1bGF0b3JzL2NhbGN1bGF0b3ItaW5wdXQvY2FsY3VsYXRvci1pbnB1dC5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](CalculatorInputComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
@@ -307,48 +265,34 @@ CalculatorInputComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵ�
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CalculatorsComponent", function() { return CalculatorsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _services_stock_data_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/stock-data-service */ "./src/app/services/stock-data-service.ts");
-/* harmony import */ var _calculator_input_calculator_input_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calculator-input/calculator-input.component */ "./src/app/calculators/calculator-input/calculator-input.component.ts");
-/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/tabs */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tabs.js");
-/* harmony import */ var _stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./stock-return-calculator/stock-return-calculator.component */ "./src/app/calculators/stock-return-calculator/stock-return-calculator.component.ts");
-
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/tabs */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tabs.js");
+/* harmony import */ var _stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./stock-return-calculator/stock-return-calculator.component */ "./src/app/calculators/stock-return-calculator/stock-return-calculator.component.ts");
 
 
 
 
 
 class CalculatorsComponent {
-    constructor(stockDataService) {
-        this.stockDataService = stockDataService;
-    }
+    constructor() { }
     ngOnInit() {
     }
-    passStockPrices(event) {
-        this.stockPrices = event;
-    }
 }
-CalculatorsComponent.ɵfac = function CalculatorsComponent_Factory(t) { return new (t || CalculatorsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_stock_data_service__WEBPACK_IMPORTED_MODULE_1__["StockDataService"])); };
-CalculatorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CalculatorsComponent, selectors: [["app-calculators"]], decls: 9, vars: 1, consts: [[1, "card-header"], [3, "onSubmit"], [1, "card-body"], ["label", "calc1"], [3, "stockPrices"], ["label", "calc2"]], template: function CalculatorsComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Welcome to the calculators! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "app-calculator-input", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("onSubmit", function CalculatorsComponent_Template_app_calculator_input_onSubmit_2_listener($event) { return ctx.passStockPrices($event); });
+CalculatorsComponent.ɵfac = function CalculatorsComponent_Factory(t) { return new (t || CalculatorsComponent)(); };
+CalculatorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CalculatorsComponent, selectors: [["app-calculators"]], decls: 7, vars: 0, consts: [[2, "text-align", "center"], [1, "blankColorBG", 2, "width", "80%", "display", "inline-block"], ["label", "calc1"], ["label", "calc2"]], template: function CalculatorsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-tab-group");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-tab", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-stock-return-calculator");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-tab-group");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-tab", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "app-stock-return-calculator", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-tab", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "this will be caluclator two");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "this will be caluclator two");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("stockPrices", ctx.stockPrices);
-    } }, directives: [_calculator_input_calculator_input_component__WEBPACK_IMPORTED_MODULE_2__["CalculatorInputComponent"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_3__["MatTab"], _stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_4__["StockReturnCalculatorComponent"]], styles: [".card-body[_ngcontent-%COMP%] {\r\n    min-height: 500px;\r\n    height: 100%;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FsY3VsYXRvcnMvY2FsY3VsYXRvcnMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGlCQUFpQjtJQUNqQixZQUFZO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvY2FsY3VsYXRvcnMvY2FsY3VsYXRvcnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWJvZHkge1xyXG4gICAgbWluLWhlaWdodDogNTAwcHg7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTab"], _stock_return_calculator_stock_return_calculator_component__WEBPACK_IMPORTED_MODULE_3__["StockReturnCalculatorComponent"]], styles: [".card-body[_ngcontent-%COMP%] {\r\n    min-height: 500px;\r\n    height: 100%;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FsY3VsYXRvcnMvY2FsY3VsYXRvcnMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGlCQUFpQjtJQUNqQixZQUFZO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvY2FsY3VsYXRvcnMvY2FsY3VsYXRvcnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWJvZHkge1xyXG4gICAgbWluLWhlaWdodDogNTAwcHg7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CalculatorsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -356,7 +300,7 @@ CalculatorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
                 templateUrl: './calculators.component.html',
                 styleUrls: ['./calculators.component.scss']
             }]
-    }], function () { return [{ type: _services_stock_data_service__WEBPACK_IMPORTED_MODULE_1__["StockDataService"] }]; }, null); })();
+    }], function () { return []; }, null); })();
 
 
 /***/ }),
@@ -371,15 +315,27 @@ CalculatorsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StockReturnCalculatorComponent", function() { return StockReturnCalculatorComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _canvasjs_min__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../canvasjs.min */ "./src/app/canvasjs.min.js");
-/* harmony import */ var _canvasjs_min__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_canvasjs_min__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
-/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/table.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _canvasjs_min__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../canvasjs.min */ "./src/app/canvasjs.min.js");
+/* harmony import */ var _canvasjs_min__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_canvasjs_min__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var src_app_services_stock_data_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/stock-data-service */ "./src/app/services/stock-data-service.ts");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/form-field.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/input.js");
+/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/datepicker.js");
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tooltip.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/table.js");
+
+
+
+
+
+
 
 
 
@@ -390,91 +346,102 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const _c0 = ["viewTable"];
-function StockReturnCalculatorComponent_mat_option_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function StockReturnCalculatorComponent_mat_option_8_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const num_r2 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", num_r2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", num_r2, " ");
+    const stock_r5 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("value", stock_r5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", stock_r5.name, " ");
 } }
-function StockReturnCalculatorComponent_table_15_th_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "th", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " return ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} }
-function StockReturnCalculatorComponent_table_15_td_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "percent");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "percent");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function StockReturnCalculatorComponent_mat_option_27_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "mat-option", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const element_r11 = ctx.$implicit;
-    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](2, 2, element_r11.return / 100, "2.3"), " - ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](3, 5, (element_r11.return + ctx_r4.precision) / 100, "2.3"), "% ");
+    const num_r6 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("value", num_r6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", num_r6, " ");
 } }
-function StockReturnCalculatorComponent_table_15_th_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "th", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " percent ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function StockReturnCalculatorComponent_table_41_th_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "th", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " return ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } }
-function StockReturnCalculatorComponent_table_15_td_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "percent");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function StockReturnCalculatorComponent_table_41_td_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "td", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](2, "percent");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](3, "percent");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const element_r12 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](2, 1, element_r12.percent, "2.3"), " ");
+    const element_r15 = ctx.$implicit;
+    const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind2"](2, 2, element_r15.return / 100, "2.3"), " - ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind2"](3, 5, (element_r15.return + ctx_r8.precision) / 100, "2.3"), "% ");
 } }
-function StockReturnCalculatorComponent_table_15_th_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "th", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " visual ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function StockReturnCalculatorComponent_table_41_th_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "th", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " percent ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } }
-function StockReturnCalculatorComponent_table_15_td_9_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "td", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " test ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} }
-function StockReturnCalculatorComponent_table_15_tr_10_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "tr", 20);
-} }
-function StockReturnCalculatorComponent_table_15_tr_11_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "tr", 21);
-} }
-function StockReturnCalculatorComponent_table_15_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "table", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](1, 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, StockReturnCalculatorComponent_table_15_th_2_Template, 2, 0, "th", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, StockReturnCalculatorComponent_table_15_td_3_Template, 4, 8, "td", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](4, 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, StockReturnCalculatorComponent_table_15_th_5_Template, 2, 0, "th", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, StockReturnCalculatorComponent_table_15_td_6_Template, 3, 4, "td", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](7, 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, StockReturnCalculatorComponent_table_15_th_8_Template, 2, 0, "th", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, StockReturnCalculatorComponent_table_15_td_9_Template, 2, 0, "td", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, StockReturnCalculatorComponent_table_15_tr_10_Template, 1, 0, "tr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, StockReturnCalculatorComponent_table_15_tr_11_Template, 1, 0, "tr", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+function StockReturnCalculatorComponent_table_41_td_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "td", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](2, "percent");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", ctx_r1.finalPercentages);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matHeaderRowDef", ctx_r1.displayedColumns);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("matRowDefColumns", ctx_r1.displayedColumns);
+    const element_r16 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind2"](2, 1, element_r16.percent, "2.3"), " ");
+} }
+function StockReturnCalculatorComponent_table_41_th_8_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "th", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " visual ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} }
+function StockReturnCalculatorComponent_table_41_td_9_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "td", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " test ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} }
+function StockReturnCalculatorComponent_table_41_tr_10_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "tr", 31);
+} }
+function StockReturnCalculatorComponent_table_41_tr_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "tr", 32);
+} }
+function StockReturnCalculatorComponent_table_41_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "table", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](1, 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, StockReturnCalculatorComponent_table_41_th_2_Template, 2, 0, "th", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, StockReturnCalculatorComponent_table_41_td_3_Template, 4, 8, "td", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](4, 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, StockReturnCalculatorComponent_table_41_th_5_Template, 2, 0, "th", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](6, StockReturnCalculatorComponent_table_41_td_6_Template, 3, 4, "td", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](7, 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](8, StockReturnCalculatorComponent_table_41_th_8_Template, 2, 0, "th", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, StockReturnCalculatorComponent_table_41_td_9_Template, 2, 0, "td", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, StockReturnCalculatorComponent_table_41_tr_10_Template, 1, 0, "tr", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, StockReturnCalculatorComponent_table_41_tr_11_Template, 1, 0, "tr", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("dataSource", ctx_r4.finalPercentages);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("matHeaderRowDef", ctx_r4.displayedColumns);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("matRowDefColumns", ctx_r4.displayedColumns);
 } }
 class StockReturnCalculatorComponent {
-    constructor() {
+    constructor(stockDataService) {
+        this.stockDataService = stockDataService;
         this.finalPercentages = [
             { percent: .20, return: .08 },
             { percent: .80, return: .15 }
@@ -484,16 +451,44 @@ class StockReturnCalculatorComponent {
         this.displayedColumns = ['return', 'Percentage', 'Visual'];
         this.precision = 1; // 1 means round to nearest whole percent, .5 to nearest .5 percent, etc.
         this.precisionOptions = [2, 1, .5, .2, .1];
-        this.interval = 30;
+        this.toDate = new Date();
+        this.fromDate = new Date();
     }
     ngOnInit() {
+        this.toDate = new Date("2020-07-20");
+        this.fromDate = new Date("1930-05-04");
+        this.stocks = this.stockDataService.getStocks();
+        this.selectedStock = this.stocks[0];
+        this.submitInput();
+    }
+    toDatepickerChanged(newDate) {
+        this.toDate = new Date(newDate);
+    }
+    fromDatepickerChanged(newDate) {
+        this.fromDate = new Date(newDate);
+    }
+    dropdownChanged(val) {
+        this.selectedStock = val;
+        console.log("Changed selected stock:");
+        console.log(this.selectedStock);
     }
     ngOnChanges(changes) {
-        this.runCalculator();
+    }
+    submitInput() {
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+            this.stockDataService.getStockPrices(this.selectedStock, this.toDate, this.fromDate).subscribe((result) => Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
+                this.stockPrices = yield result;
+                this.runCalculator();
+            }));
+        });
     }
     runCalculator() {
         let stockPrices = this.stockPrices;
         var last = stockPrices.length - 1;
+        if (last - this.intervalToAnalyze * 253 <= 0) {
+            alert("Sorry, this interval cannot be analyzed");
+            return;
+        }
         //console.log("Analyzing stock prices from " + stockPrices[0].date + " to " + stockPrices[last].date);
         // Algorithm: 1. Find the return on each n year interval, store in a list. 
         // 2. Next, process the list to categorize each return, and tell what percentage chance you have of getting a certain return
@@ -538,7 +533,7 @@ class StockReturnCalculatorComponent {
             let formattedPercent = Math.round(row.percent * 10000) / 100;
             dataToShow.push({ y: formattedPercent, label: formattedReturn });
         }
-        let chart = new _canvasjs_min__WEBPACK_IMPORTED_MODULE_1__["Chart"]("chartContainer", {
+        let chart = new _canvasjs_min__WEBPACK_IMPORTED_MODULE_2__["Chart"]("chartContainer", {
             animationEnabled: true,
             exportEnabled: true,
             title: {
@@ -569,59 +564,116 @@ class StockReturnCalculatorComponent {
         this.runCalculator();
     }
 }
-StockReturnCalculatorComponent.ɵfac = function StockReturnCalculatorComponent_Factory(t) { return new (t || StockReturnCalculatorComponent)(); };
-StockReturnCalculatorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StockReturnCalculatorComponent, selectors: [["app-stock-return-calculator"]], viewQuery: function StockReturnCalculatorComponent_Query(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_c0, true);
+StockReturnCalculatorComponent.ɵfac = function StockReturnCalculatorComponent_Factory(t) { return new (t || StockReturnCalculatorComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_stock_data_service__WEBPACK_IMPORTED_MODULE_3__["StockDataService"])); };
+StockReturnCalculatorComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: StockReturnCalculatorComponent, selectors: [["app-stock-return-calculator"]], viewQuery: function StockReturnCalculatorComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵviewQuery"](_c0, true);
     } if (rf & 2) {
         var _t;
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.viewTable = _t.first);
-    } }, inputs: { stockPrices: "stockPrices" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 17, vars: 3, consts: [[2, "width", "25%", "margin-top", "20px", "color", "blue", 3, "selectionChange"], [3, "value", 4, "ngFor", "ngForOf"], ["value", "30", 3, "change"], ["mat-raised-button", "", "color", "primary", 3, "click"], [2, "width", "30%"], [2, "border", "3px solid #000"], [2, "width", "75%"], ["mat-table", "", "id", "viewTable", "style", "width:100%", 3, "dataSource", 4, "ngIf"], ["id", "chartContainer", 2, "height", "370px", "width", "100%"], [3, "value"], ["mat-table", "", "id", "viewTable", 2, "width", "100%", 3, "dataSource"], ["matColumnDef", "return"], ["mat-header-cell", "", 4, "matHeaderCellDef"], ["mat-cell", "", 4, "matCellDef"], ["matColumnDef", "Percentage"], ["matColumnDef", "Visual"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["mat-row", "", 4, "matRowDef", "matRowDefColumns"], ["mat-header-cell", ""], ["mat-cell", ""], ["mat-header-row", ""], ["mat-row", ""]], template: function StockReturnCalculatorComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Precision: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-select", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("selectionChange", function StockReturnCalculatorComponent_Template_mat_select_selectionChange_2_listener($event) { return ctx.precisionChanged($event.value); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, StockReturnCalculatorComponent_mat_option_3_Template, 2, 2, "mat-option", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Interval: ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "input", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function StockReturnCalculatorComponent_Template_input_change_6_listener($event) { return ctx.intervalChanged($event.target.value); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " years ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "button", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StockReturnCalculatorComponent_Template_button_click_8_listener() { return ctx.runCalculator(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Submit");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "mat-card", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, StockReturnCalculatorComponent_table_15_Template, 12, 3, "table", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.viewTable = _t.first);
+    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵNgOnChangesFeature"]], decls: 43, vars: 11, consts: [["color", "primary", 1, "primaryColorBG"], ["appearance", "fill", 2, "margin-right", "10px", "height", "10px"], ["appearance", "fill", 3, "selectionChange"], [3, "value", 4, "ngFor", "ngForOf"], ["appearance", "fill", 1, "primaryColorBG", 2, "margin-right", "10px"], ["matInput", "", "value", "1930-05-04", 3, "matDatepicker", "change"], ["matSuffix", "", 3, "for"], ["pickerFrom", ""], ["matInput", "", "value", "2020-07-20", 3, "matDatepicker", "change"], ["pickerTo", ""], ["appearance", "fill", "matTooltip", "The intervals displayed on the graph. Ex. .5 will show every range of .5 percent", 2, "width", "10%", "height", "10px", "margin-right", "10px"], [3, "selectionChange"], ["appearance", "fill", 2, "width", "57px", "margin-right", "10px"], ["matInput", "", "value", "30", "matTooltip", "the number of years in each interval analyzed", 3, "change"], ["mat-raised-button", "", "color", "accent", 3, "click"], [2, "width", "50%"], [1, "accentColorBG"], [2, "width", "95%"], ["mat-table", "", "id", "viewTable", "style", "width:100%", 3, "dataSource", 4, "ngIf"], ["id", "chartContainer", 2, "height", "340px", "width", "100%"], [3, "value"], ["mat-table", "", "id", "viewTable", 2, "width", "100%", 3, "dataSource"], ["matColumnDef", "return"], ["mat-header-cell", "", 4, "matHeaderCellDef"], ["mat-cell", "", 4, "matCellDef"], ["matColumnDef", "Percentage"], ["matColumnDef", "Visual"], ["mat-header-row", "", 4, "matHeaderRowDef"], ["mat-row", "", 4, "matRowDef", "matRowDefColumns"], ["mat-header-cell", ""], ["mat-cell", ""], ["mat-header-row", ""], ["mat-row", ""]], template: function StockReturnCalculatorComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "table");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "mat-card", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "td");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "mat-form-field", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "mat-label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "Stock");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "mat-select", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("selectionChange", function StockReturnCalculatorComponent_Template_mat_select_selectionChange_7_listener($event) { return ctx.dropdownChanged($event.value); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](8, StockReturnCalculatorComponent_mat_option_8_Template, 2, 2, "mat-option", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "mat-form-field", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "mat-label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "From");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "input", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function StockReturnCalculatorComponent_Template_input_change_12_listener($event) { return ctx.fromDatepickerChanged($event.target.value); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "mat-datepicker-toggle", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "mat-datepicker", null, 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "mat-form-field", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "mat-label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "To");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "input", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function StockReturnCalculatorComponent_Template_input_change_19_listener($event) { return ctx.toDatepickerChanged($event.target.value); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](20, "mat-datepicker-toggle", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](21, "mat-datepicker", null, 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "mat-form-field", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "mat-label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, "Precision");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "mat-select", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("selectionChange", function StockReturnCalculatorComponent_Template_mat_select_selectionChange_26_listener($event) { return ctx.precisionChanged($event.value); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](27, StockReturnCalculatorComponent_mat_option_27_Template, 2, 2, "mat-option", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "mat-form-field", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "mat-label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, "Interval");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "input", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("change", function StockReturnCalculatorComponent_Template_input_change_31_listener($event) { return ctx.intervalChanged($event.target.value); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "button", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function StockReturnCalculatorComponent_Template_button_click_32_listener() { return ctx.submitInput(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](33, "Submit");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](35, "td", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "mat-card", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](40, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](41, StockReturnCalculatorComponent_table_41_Template, 12, 3, "table", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](42, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.precisionOptions);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Here you see an analysis of the entire selected time range, calculating the annualized return from every possible interval of ", ctx.intervalToAnalyze, " years. This graph shows the chance you had of getting different Return on Investments (ROI) over this time period. (A taller bar means a higher chance of getting that ROI) ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.finalPercentages.length > 0 && false);
-    } }, directives: [_angular_material_select__WEBPACK_IMPORTED_MODULE_2__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_material_button__WEBPACK_IMPORTED_MODULE_4__["MatButton"], _angular_material_card__WEBPACK_IMPORTED_MODULE_5__["MatCard"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_material_core__WEBPACK_IMPORTED_MODULE_6__["MatOption"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatTable"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatColumnDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatHeaderCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatHeaderRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatHeaderCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatHeaderRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_7__["MatRow"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["PercentPipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NhbGN1bGF0b3JzL3N0b2NrLXJldHVybi1jYWxjdWxhdG9yL3N0b2NrLXJldHVybi1jYWxjdWxhdG9yLmNvbXBvbmVudC5jc3MifQ== */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](StockReturnCalculatorComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](15);
+        const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵreference"](22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.stocks);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("matDatepicker", _r1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("for", _r1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("matDatepicker", _r2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("for", _r2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.precisionOptions);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" Here you see an analysis of the entire selected time range, calculating the annualized return from every possible interval of ", ctx.intervalToAnalyze, " years. This graph shows the chance you had of getting different Return on Investments (ROI) over this time period. (A taller bar means a higher chance of getting that ROI). ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate3"]("The below calculation runs from ", ctx.fromDate.toISOString().split("T")[0], " to ", ctx.toDate.toISOString().split("T")[0], ", analyzing prices on the ", ctx.selectedStock.name, ".");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.finalPercentages.length > 0 && false);
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_4__["MatCard"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__["MatFormField"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__["MatLabel"], _angular_material_select__WEBPACK_IMPORTED_MODULE_6__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _angular_material_input__WEBPACK_IMPORTED_MODULE_8__["MatInput"], _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_9__["MatDatepickerInput"], _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_9__["MatDatepickerToggle"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__["MatSuffix"], _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_9__["MatDatepicker"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_10__["MatTooltip"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButton"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgIf"], _angular_material_core__WEBPACK_IMPORTED_MODULE_12__["MatOption"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatTable"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatColumnDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatHeaderCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatCellDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatHeaderRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatRowDef"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatHeaderCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatCell"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatHeaderRow"], _angular_material_table__WEBPACK_IMPORTED_MODULE_13__["MatRow"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_7__["PercentPipe"]], styles: [".themedSelect[_ngcontent-%COMP%] {\n  border: 1px solid;\n  border-color: var(--color-accent);\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY2FsY3VsYXRvcnMvc3RvY2stcmV0dXJuLWNhbGN1bGF0b3IvQzpcXFVzZXJzXFxHVFhDNzNcXHNvdXJjZVxccmVwb3NcXGFuYWx5c2lzL3NyY1xcYXBwXFxjYWxjdWxhdG9yc1xcc3RvY2stcmV0dXJuLWNhbGN1bGF0b3JcXHN0b2NrLXJldHVybi1jYWxjdWxhdG9yLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jYWxjdWxhdG9ycy9zdG9jay1yZXR1cm4tY2FsY3VsYXRvci9zdG9jay1yZXR1cm4tY2FsY3VsYXRvci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNJLGlCQUFBO0VBQ0EsaUNBQUE7QUNBSiIsImZpbGUiOiJzcmMvYXBwL2NhbGN1bGF0b3JzL3N0b2NrLXJldHVybi1jYWxjdWxhdG9yL3N0b2NrLXJldHVybi1jYWxjdWxhdG9yLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi50aGVtZWRTZWxlY3R7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZDtcclxuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tY29sb3ItYWNjZW50KVxyXG59IiwiLnRoZW1lZFNlbGVjdCB7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItY29sb3I6IHZhcigtLWNvbG9yLWFjY2VudCk7XG59Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](StockReturnCalculatorComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
         args: [{
                 selector: 'app-stock-return-calculator',
                 templateUrl: './stock-return-calculator.component.html',
-                styleUrls: ['./stock-return-calculator.component.css']
+                styleUrls: ['./stock-return-calculator.component.scss']
             }]
-    }], function () { return []; }, { stockPrices: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], viewTable: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+    }], function () { return [{ type: src_app_services_stock_data_service__WEBPACK_IMPORTED_MODULE_3__["StockDataService"] }]; }, { viewTable: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"],
             args: ['viewTable']
         }] }); })();
 
@@ -1540,6 +1592,66 @@ d.arcTo=function(){};d.createPattern=function(a,b){return new I(a,b)};w.prototyp
 
 /***/ }),
 
+/***/ "./src/app/main-page/top-navbar/top-navbar.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/main-page/top-navbar/top-navbar.component.ts ***!
+  \**************************************************************/
+/*! exports provided: TopNavbarComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TopNavbarComponent", function() { return TopNavbarComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/icon.js");
+
+
+
+
+
+class TopNavbarComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+TopNavbarComponent.ɵfac = function TopNavbarComponent_Factory(t) { return new (t || TopNavbarComponent)(); };
+TopNavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TopNavbarComponent, selectors: [["app-top-navbar"]], decls: 13, vars: 0, consts: [["color", "accent"], ["mat-icon-button", "", "aria-label", "Example icon-button with menu icon", 1, "example-icon"], [1, "example-spacer"], ["mat-icon-button", "", "aria-label", "Example icon-button with heart icon", 1, "example-icon", "favorite-icon"], ["mat-icon-button", "", "aria-label", "Example icon-button with share icon", 1, "example-icon"]], template: function TopNavbarComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-toolbar", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-icon");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "local_fire_department");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Investment Calculators");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "button", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-icon");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "favorite");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "mat-icon");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "share");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_material_toolbar__WEBPACK_IMPORTED_MODULE_1__["MatToolbar"], _angular_material_button__WEBPACK_IMPORTED_MODULE_2__["MatButton"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_3__["MatIcon"]], styles: [".example-spacer[_ngcontent-%COMP%] {\r\n    flex: 1 1 auto;\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi1wYWdlL3RvcC1uYXZiYXIvdG9wLW5hdmJhci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztFQUNoQiIsImZpbGUiOiJzcmMvYXBwL21haW4tcGFnZS90b3AtbmF2YmFyL3RvcC1uYXZiYXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlLXNwYWNlciB7XHJcbiAgICBmbGV4OiAxIDEgYXV0bztcclxuICB9Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TopNavbarComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-top-navbar',
+                templateUrl: './top-navbar.component.html',
+                styleUrls: ['./top-navbar.component.css']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "./src/app/material/material.module.ts":
 /*!*********************************************!*\
   !*** ./src/app/material/material.module.ts ***!
@@ -1902,7 +2014,11 @@ class StockDataService {
     }
     ;
     getStocks() {
-        return [{ name: "S&P 500", apiSymbol: '%5EGSPC', ticker: "^GSPC" }];
+        return [
+            { name: "S&P 500", apiSymbol: '%5EGSPC', ticker: "^GSPC", earliestDate: new Date("1927/12/30") },
+            { name: "Vanguard Total Stock Market Index Fund", apiSymbol: 'VTI', ticker: "VTI", earliestDate: new Date("2001/06/15") },
+            { name: "NASDAQ Composite", apiSymbol: '%5EIXIC', ticker: "^IXIC", earliestDate: new Date("1971/02/04") }
+        ];
     }
     getYahooUrl(stock, toDate, fromDate, interval = "d") {
         //interval should be "d" for daily, "mo" for monthly
