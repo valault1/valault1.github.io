@@ -1906,6 +1906,7 @@ class StockDataService {
     }
     getYahooUrl(stock, toDate, fromDate, interval = "d") {
         //interval should be "d" for daily, "mo" for monthly
+        var proxy = "//cors-anywhere.herokuapp.com/";
         var url = "https://query1.finance.yahoo.com/v7/finance/download/";
         url += stock.apiSymbol;
         url += "?period1=";
@@ -1916,7 +1917,7 @@ class StockDataService {
         url += interval;
         url += "&events=history";
         console.log(url);
-        return url;
+        return proxy + url;
     }
 }
 StockDataService.ɵfac = function StockDataService_Factory(t) { return new (t || StockDataService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"])); };
