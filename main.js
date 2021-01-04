@@ -381,18 +381,20 @@ class RetirementCalculatorComponent {
         this.submittedYears = this.years;
         this.submitted = false;
         this.monthlyAmountSaved = 0;
-        this.timesCompounded = 1;
+        this.timesCompounded = 4;
     }
     ngOnInit() {
     }
     save() {
         this.submitted = true;
         this.submittedYears = this.years;
-        this.endBalance = this.startBalance;
+        console.log(this.years);
+        this.endBalance = Number(this.startBalance);
         for (var i = 0; i < this.years * this.timesCompounded; i++) {
             this.endBalance += this.endBalance * this.rateOfReturn / this.timesCompounded;
             this.endBalance += this.monthlyAmountSaved * 12 / this.timesCompounded;
         }
+        console.log(this.endBalance);
     }
 }
 RetirementCalculatorComponent.ɵfac = function RetirementCalculatorComponent_Factory(t) { return new (t || RetirementCalculatorComponent)(); };
