@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.8fbcbd9af364fe44e52276ac715f88b9.js"
+  "/precache-manifest.ae40c02dc8b905e97806f24dc583cb25.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "quiz"});
