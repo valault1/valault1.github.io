@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{"3e1d":function(t,e,r){"use strict";r.r(e);var n=function(){var t=this,e=t.$createElement,r=t._self._c||e;return r("div",{staticClass:"finished"},[r("h1",[t._v("The quiz is over!")]),t._v(" You got "+t._s(t.$route.params.numCorrect)+" right! "),r("router-link",{attrs:{to:"/"}},[t._v("Take another quiz")])],1)},o=[],s=r("2877"),u={},a=Object(s["a"])(u,n,o,!1,null,null,null);e["default"]=a.exports}}]);
+//# sourceMappingURL=about.8372efd0.js.map
