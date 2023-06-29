@@ -1,8 +1,37 @@
+.main-content {
+  color: pink;
+  width: 92%;
+}
+
+/* the body consists of the nav bar and the content */
 .main-body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: pink;
+  background-color: black;
+}
+
+.navbar {
+  border-style: solid;
+  /* note: update with the width of main content */
+  width: 7%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* pages */
+.page-home {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 680px;
-  color: pink;
-  background-color: navy;
+}
+
+a {
+  cursor: pointer;
+}
+a:hover {
+  color: hotpink;
 }
