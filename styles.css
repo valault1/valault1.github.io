@@ -1,0 +1,8 @@
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 680px;
+  color: pink;
+  background-color: black;
+}
